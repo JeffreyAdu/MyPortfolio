@@ -1,12 +1,12 @@
 {
   "name": "simplefolio",
   "version": "1.0.1",
-  "private": "true",
+  "private": true,
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build src/index.html",
+    "start": "parcel serve src/index.html",
+    "build": "parcel build",
     "gh-pages-build": "parcel build --public-url ."
   },
   "repository": {
@@ -23,7 +23,6 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0",
     "parcel": "^2.7.0",
-    "parcel-bundler": "^1.12.5",
     "prettier": "^2.7.1"
   },
   "dependencies": {

@@ -29,6 +29,13 @@
       align-items: center;
       justify-content: center;
 
+      iframe {
+        width: 100%; /* Make iframe take the full width of the container */
+        max-width: 500px; /* Set a maximum width for the iframe */
+        height: 300px; /* Set the desired height */
+        border-radius: 10px; /* Optional: for rounded corners */
+      }
+
       @include respond(tab-land) {
         height: 100%;
       }

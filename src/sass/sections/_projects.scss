@@ -25,7 +25,7 @@
     }
 
     &__text {
-      text-align: left;
+      text-align: justify; // For justified alignment across the width
 
       @include respond(phone) {
         margin-bottom: 2.5rem !important;

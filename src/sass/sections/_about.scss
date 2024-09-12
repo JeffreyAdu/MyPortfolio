@@ -55,7 +55,7 @@
       }
 
       &-text {
-        text-align: left;
+        text-align: justify; // For justified alignment across the width
 
         @include respond(tab-port) {
           text-align: left;
